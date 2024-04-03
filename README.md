@@ -34,7 +34,7 @@ For the following questions, choose a single endpoint to request within Postman.
 
 - What is the full URL of the endpoint?
 
-> http://(https://anapioficeandfire.com/api/houses/350)
+> https://anapioficeandfire.com/api/houses/350
 
 - What response do you receive when you make a request to that endpoint? Be sure to wrap your answer in the correct formatting for JSON.
 
@@ -99,7 +99,7 @@ The following questions relate to the documentation of the API.
 
 - Did the quality of the documentation impact your decision to use it?
 
-> Yes/No because...
+> Yes because it was easier to read through compared to the other APIs I tried to test.
 
 - Did you switch which API you chose initially because of its documentation, or did you stick with the one you selected and work your way through it?
 
