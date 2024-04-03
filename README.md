@@ -119,12 +119,12 @@ The following questions require you to define some concepts and terms. Provide d
 
 - In your own words, summarize the request-response cycle.
 
-> The request-response cycle ...
+> The request-response cycle is summarized by a simple question (or request) sent by the client and a single suitable response sent by the server. 
 
 - In your own words, describe what an API is.
 
-> An API is ...
+> An API is simply an interface to interact with an external database or service.
 
 - In your own words, describe the purpose of Postman.
 
-> Postman is an application that ...
+> Postman is an application that allow the developer to craft requests and analyse responses (and server behavior).
