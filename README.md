@@ -32,32 +32,66 @@ For the following questions, choose a single endpoint to request within Postman.
 
 - What is the full URL of the endpoint?
 
-> http://
+> https://gutendex.com/books/55752
 
 - What response do you receive when you make a request to that endpoint? Be sure to wrap your answer in the correct formatting for JSON.
 
 ```json
-
-
+{
+    "id": 55752,
+    "title": "Dom Casmurro",
+    "authors": [
+        {
+            "name": "Machado de Assis",
+            "birth_year": 1839,
+            "death_year": 1908
+        }
+    ],
+    "translators": [],
+    "subjects": [
+        "Adultery -- Fiction",
+        "Authorship -- Fiction",
+        "Catholic Church -- Fiction",
+        "Reminiscing in old age -- Fiction"
+    ],
+    "bookshelves": [],
+    "languages": [
+        "pt"
+    ],
+    "copyright": false,
+    "media_type": "Text",
+    "formats": {
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/55752.txt.utf-8",
+        "text/html": "https://www.gutenberg.org/ebooks/55752.html.images",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/55752/55752-h/55752-h.htm",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/55752.epub3.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/55752.kf8.images",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/55752/55752-8.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/55752.rdf",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/55752/pg55752.cover.medium.jpg",
+        "application/octet-stream": "https://www.gutenberg.org/cache/epub/55752/pg55752-h.zip"
+    },
+    "download_count": 1011
+}
 ```
 
 - What status code did you get back from your request? Why did you receive this status code?
 
-> 00
+> 200
 
 - Click on the **response** headers in Postman. What are the `Content-Type` and `Content-Length` (provide exact values)?
 
-> `Content-Type`:
+> `Content-Type`: application/json
 
-> `Content-Length`:
+> `Content-Length`: 1082
 
 - Summarize the most salient parts of the data you are getting back. How would you describe what is included within the response?
 
-> The data we received includes...
+> The data we received includes **title**, **authors**, **subjects**, **copyright**, **formats**, and more.
 
 - Identify at least two ways to use the data within a web application.
 
-> I could imagine integrating this API into an app that ...
+> I could imagine integrating this API into an app that sugest books accordingly to the user interests.
 
 ### Documentation
 
