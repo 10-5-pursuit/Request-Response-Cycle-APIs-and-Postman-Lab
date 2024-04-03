@@ -91,7 +91,7 @@ For the following questions, choose a single endpoint to request within Postman.
 
 - Identify at least two ways to use the data within a web application.
 
-> I could imagine integrating this API into an app that sugest books accordingly to the user interests.
+> I could imagine integrating this API into an app that recoomend books accordingly to the user interests or an app that holds an personal copyright free library.
 
 ### Documentation
 
@@ -99,19 +99,19 @@ The following questions relate to the documentation of the API.
 
 - What did you like about the documentation? Cite specific examples.
 
-> The documentation was ...
+> The documentation was very clear and straight forward. I tryed and selected only books from a certain topic and time period as well as specific languages.
 
 - What did you find challenging about the documentation? Cite specific examples.
 
-> I found the documentation ...
+> I didn't found anything challenging with the documentation.
 
 - Did the quality of the documentation impact your decision to use it?
 
-> Yes/No because...
+> Yes. Not only the documentation was very clear it also linked to resources on how to host my own gutenindex server.
 
 - Did you switch which API you chose initially because of its documentation, or did you stick with the one you selected and work your way through it?
 
-> Yes/No I ended up ...
+> I did switch from the API that I initially selected (Corporate Buzz Words) just because it sounded more useful.
 
 ### Definitions
 
