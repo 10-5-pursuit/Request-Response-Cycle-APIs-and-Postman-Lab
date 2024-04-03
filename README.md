@@ -20,7 +20,7 @@ Do your best to answer the questions with specific details. Writing about code c
 
 - What is the purpose of this API? Describe what data the API provides and why someone might want to use it.
 
-> The purpose of this API is...
+> The purpose of this API is fetching data from Project Gutenberg Books Library
 
 - What is the URL of the documentation?
 
